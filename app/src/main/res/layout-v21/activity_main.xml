@@ -9,6 +9,7 @@
     android:paddingRight="16dp"
     android:paddingTop="16dp"
     android:paddingBottom="16dp"
+    android:background="#26ade0"
     tools:context=".MainActivity">
 
     <TextView
@@ -20,7 +21,8 @@
         android:layout_marginBottom="221dp"
         android:text="@string/make_everyday_decision_easier"
         android:textColor="#000"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:layout_marginTop="58dp"/>
 
     <ImageView
         android:id="@+id/image_8ball"
@@ -29,10 +31,10 @@
         android:src="@drawable/ball1"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"/>
-
-
-
+    
     <Button
+        android:id="@+id/askBtn"
+        android:layout_marginBottom="58dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/ask"
